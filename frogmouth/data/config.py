@@ -19,7 +19,25 @@ class Config:
     light_mode: bool = False
     """Should we run in light mode?"""
 
-    markdown_extensions: list[str] = field(default_factory=lambda: [".md", ".markdown"])
+    markdown_extensions: list[str] = field(
+        default_factory=lambda: [
+            ".md",
+            ".markdown",
+            ".txt",
+            ".docx",
+            ".odt",
+            ".htm",
+            ".html",
+            ".epub",
+            ".json",
+            ".latex",
+            ".tex",
+            ".xml",
+            ".opml",
+            ".rst",
+            ".log",
+        ]
+    )
     """What Markdown extensions will we look for?"""
 
     navigation_left: bool = True

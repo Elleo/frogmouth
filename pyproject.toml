@@ -32,6 +32,7 @@ textual = {version = "^0.22.2"}
 typing-extensions = "^4.5.0"
 httpx = "^0.23.3"
 xdg = "^6.0.0"
+pandoc = "^2.3"
 
 
 [tool.poetry.group.dev.dependencies]
